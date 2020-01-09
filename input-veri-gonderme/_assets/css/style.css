@@ -1,0 +1,55 @@
+*{
+  font-family: 'Public Sans', sans-serif;  
+}
+.container{
+  width: 40%;
+  margin: 0 auto;
+  padding: 20px;
+  border: 1px solid sandybrown;
+}
+.container .input-title{
+  font-size: 15px;
+  font-weight: 600;
+  color: #1f1f1f;
+  border: 1px solid #d8d6d6;
+  padding: 5px 10px;
+  margin: 10px 0 10px 0;
+  text-align: center;
+  width: 100%;
+  box-sizing: border-box;
+  transition: .2s;
+}
+
+.container .input-title:hover{
+  background-color: #333;
+  color: #d8d6d6;
+}
+.container #val1{
+}
+.container #button{
+  display: inline-block;
+  margin-top: 20px;
+  text-align: center;
+  padding: 5px 10px;
+  color: #1f1f1f;
+  font-size: 14px;
+  background-color: #d8d6d6;
+  text-decoration: none;
+  border-radius: 3px;
+  width: 25%;
+  transition: .2s;
+  display: block;
+  margin-bottom: 30px;
+}
+.container #button:hover{
+  color: sandybrown;
+}
+#valSend1,#valSend2,#valSend3{
+  text-align: center;
+  border: 1px solid sandybrown;
+  border-radius: 5px ;
+  font-size: 14px;
+  font-family: sans-serif;
+  padding: 5px 0;
+  margin: 2px 0;
+}
